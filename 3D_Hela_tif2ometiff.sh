@@ -79,6 +79,10 @@ do
 	done
 done
 
+for folder1 in "${arr1[@]}"
+do
+	rm -rfv $folder1
+done
 
                  
       

@@ -41,6 +41,7 @@ then
 	for FILE in 3DHela_*.tgz
 	do
 		echo $FILE
-		tar -xf $FILE
+		tar -xvf $FILE
+		rm -f $FILE
 	done
 fi
